@@ -18,6 +18,12 @@ hours = 0
 minutes = 0
 seconds = 0
 while True:
-    second += 1
-
+    seconds += 1
     print(hours, minutes, seconds)
+
+index_i = 0
+var_list = ['Almaty', 'Nur-Sultan', 'Tashkent', 'Taraz']
+for i in var_list:
+    string_city = f'{i} {index_i}'
+    print(i + " " + str(var_list.index(i)+1))
+    index_i += 1

@@ -2,15 +2,21 @@ def calc(number1, number2, operation):
     print(number1, operation, number2, '=')
     if operation == '+':
         return number1 + number2
-    elif operation == '-':
+    if operation == '-':
         return number1 - number2
-    elif operation == '*':
+    if operation == '*':
         return number1 * number2
-    elif operation == '/':
+    if operation == '/':
         return number1 / number2
+    if operation == '%':
+        return number1 % number2
+    if operation == '//':
+        return number1 // number2
     else:
         print('Error')
-result = calc(10, 3, '+')
+
+
+result = calc(10, 3, '%')
 print(result)
-result = calc(-11, -5, '-')
+result = calc(-11, -5, '//')
 print(result)
