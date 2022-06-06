@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.homework4">
+  <component name="RunManager" selected="Python.nomeworkTkinter">
     <configuration name="TXTHOMEWORK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nomeworkTkinter" />
         <item itemvalue="Python.homework4" />
         <item itemvalue="Python.analiz_excel" />
         <item itemvalue="Python.start_excel" />
         <item itemvalue="Python.TXTHOMEWORK" />
-        <item itemvalue="Python.nomeworkTkinter" />
       </list>
     </recent_temporary>
   </component>
