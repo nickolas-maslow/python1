@@ -7,5 +7,5 @@ otvet_decod = zapros.content.decode()
 print(type(otvet_decod))
 otvet_dict = json.loads(otvet_decod)
 
-with open ("getting.json", "w") as file:
+with open ("homework_/get_one.json", "w") as file:
     json.dump(otvet_dict, file)
