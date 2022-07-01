@@ -63,7 +63,7 @@ class Vacation_first_part:
         self.end_date = end_date
 
     def info(self):
-        return f"{self.worker}{self.start_date}{self.day_duration}{self.end_date}"
+        return f"{self.worker}{self.year_start}{self.start_date}{self.day_duration}{self.end_date}"
 
 
 massive = []
@@ -92,8 +92,11 @@ var = 0
 for row in range(0, len(massive)):
     if massive[row].is_pribyl():
         var += 1
-        page[f"A{var + 1}"] = massive[row].tovar
-        page[f"B{var + 1}"] = massive[row].prodazhi
+        page[f"A{var + 1}"] = massive[row].worker
+        page[f"B{var + 1}"] = massive[row].year_start
+        page[f"B{var + 1}"] = massive[row].start_date
+        page[f"B{var + 1}"] = massive[row].day_duration
+        page[f"B{var + 1}"] = massive[row].end_date
         for col in range(0, len(massive[row])):
             print([row])
             letter = get_column_letter(column)
