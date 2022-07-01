@@ -94,9 +94,9 @@ for row in range(0, len(massive)):
         var += 1
         page[f"A{var + 1}"] = massive[row].worker
         page[f"B{var + 1}"] = massive[row].year_start
-        page[f"B{var + 1}"] = massive[row].start_date
-        page[f"B{var + 1}"] = massive[row].day_duration
-        page[f"B{var + 1}"] = massive[row].end_date
+        page[f"C{var + 1}"] = massive[row].start_date
+        page[f"D{var + 1}"] = massive[row].day_duration
+        page[f"E{var + 1}"] = massive[row].end_date
         for column in range(0, len(massive[row])):
             print([row])
             letter = get_column_letter(column)
