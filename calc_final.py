@@ -97,9 +97,9 @@ for row in range(0, len(massive)):
         page[f"B{var + 1}"] = massive[row].start_date
         page[f"B{var + 1}"] = massive[row].day_duration
         page[f"B{var + 1}"] = massive[row].end_date
-        for col in range(0, len(massive[row])):
+        for column in range(0, len(massive[row])):
             print([row])
             letter = get_column_letter(column)
-            page[f"{get_column_letter(col + 1)}{var + 1}"] = massive[row][col]
+            page[f"{get_column_letter(column + 1)}{var + 1}"] = massive[row][column]
 
 book.save("file.xlsx")
