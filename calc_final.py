@@ -81,7 +81,7 @@ for row in range(1, max_row+1):
         )
         print(name)
 
-book = workbook()
+book = Workbook()
 page = book.active
 for row in range(0, len(massive)):
     for col in range(0, len(massive[row])):
@@ -99,4 +99,4 @@ for row in range(0, len(massive)):
             letter = get_column_letter(column)
             page[f"{get_column_letter(col + 1)}{var + 1}"] = massive[row][col]
 
-book.save("home_work/oop.xlsx")
+book.save("file.xlsx")
